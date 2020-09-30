@@ -3,7 +3,7 @@ from . import Game
 
 class BGA:
     def __init__(self, client_id: str, client_secret: str=None, redirect_uri:str =None):
-        self._base_url = "https://www.boardgameatlas.com/api/"
+        self._base_url = "https://api.boardgameatlas.com/api/"
         self._client_id = client_id
         self._client_secret = client_secret
         self._redirect_uri = redirect_uri
